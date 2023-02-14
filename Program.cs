@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 //firstTask
-string pathToFile = "/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/cockBook.txt";
+string pathToFile = "/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask/cockBook.txt";
 Dictionary<string, List<List<string>>> cookBook = addFileToCookBook(pathToFile);
 
 Dictionary<string, List<List<string>>> addFileToCookBook(string pathToFile)
@@ -91,9 +91,9 @@ printDictionary(getShopListByDishes(cookBook, new List<string> { "Omelette", "Fa
 
 //thirdTask
 List<string> listOfPaths = new List<string>();
-listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/1.txt"); 
-listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/2.txt");
-listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/3.txt");
+listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//1.txt"); 
+listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//2.txt");
+listOfPaths.Add("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//3.txt");
 mergeFiles(listOfPaths);
 void mergeFiles(List<string> listOfPaths)
 {
@@ -110,14 +110,14 @@ void mergeFiles(List<string> listOfPaths)
         allText += String.Join('\n', filesInfo[amountOfLines].Value);
         allText += "\n\n";
     }
-    if (File.Exists("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/amalgama.txt"))
+    if (File.Exists("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask/finishFile.txt"))
     {
-        File.WriteAllText("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/amalgama.txt", allText);
+        File.WriteAllText("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask/finishFile.txt", allText);
     }
     else
     {
-        File.Create("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/amalgama.txt");
-        File.WriteAllText("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/amalgama.txt", allText);
+        File.Create("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask/finishFile.txt");
+        File.WriteAllText("/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask/finishFile.txt", allText);
     }
 }
 

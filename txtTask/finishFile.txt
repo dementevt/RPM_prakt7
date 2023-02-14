@@ -1,8 +1,8 @@
-/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/2.txt
+/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//2.txt
 1
 Тревога началась в тринадцать часов ноль две минуты. 
 
-/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/1.txt
+/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//1.txt
 7
 Начальник  полиции лично позвонил в шестнадцатый участок. А спустя  одну минуту тридцать секунд
 в дежурке и других комнатах нижнего этажа раздались звонки
@@ -12,7 +12,7 @@
 лестницы  он задержался  и  обвел взглядом помещение дежурки. Затем поправил
 галстук и проследовал к машине.
 
-/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/thirdTask/3.txt
+/Users/timofey/Documents/thirdCourse/RPM/RPM_prakt7/txtTask//3.txt
 9
      В  это время  дня  машины текли сплошным  блестящим  потоком,  а  среди
 потока, будто  колонны из бетона  и стекла, высились  здания. Здесь,  в мире
